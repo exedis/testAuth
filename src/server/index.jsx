@@ -1,6 +1,12 @@
 //return 123123;
+import React from 'react';
 
-const server = () => {
+const Server = () => {
+
+    setTimeout(() => {
+        console.log('data loaded')
+    },500)
+
     const data = {
         login: 'dev@dev.com',
         password: '123',
@@ -8,17 +14,7 @@ const server = () => {
         authorized: false,
     }
     return JSON.stringify(data);
-    // return {
-    //     auth: function (login, pass) {
-    //         if (login === data.login && pass === data.password) {
-    //             const token = 'asdasdasd';
-    //             return [true,token]
-    //         }else{
-    //             return 'error';
-    //         }
-    //     }
-    // }
 
-}
+};
 
-export default server;
+export default Server;
