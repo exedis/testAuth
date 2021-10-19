@@ -77,7 +77,7 @@ const FormAuth = () => {
                     setToken('asdasda32423sdasdasda');
                     setAuthorized(true);
                     setUserAccountHandler(user.name);
-                    setAlertMessageHandler(true, 'Успено авторизован!');
+                    setAlertMessageHandler(true, 'Успешно авторизован!');
                 } else {
                     setAlertMessageHandler(false, 'Ошибка! Неправильный логин или пароль!');
                 }
