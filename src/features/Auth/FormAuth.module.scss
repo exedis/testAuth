@@ -1,0 +1,29 @@
+.wrapper {
+  background-color: rgb(255 255 255 / 50%);
+  text-align: center;
+  padding: 15px 0;
+  box-sizing: border-box;
+  position: relative;
+  width: 320px;
+}
+
+.loading {
+  filter: blur(2px);
+}
+
+.authorized {
+  .logoutBtn {
+    background: #FF8686;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 16px;
+    transition: 0.3s all;
+  }
+
+  .logoutBtn:hover {
+    background: #FF5D5D;
+  }
+}

@@ -1,5 +1,5 @@
 import './App.css';
-import {FormAuth} from "./features/FormAuth";
+import {FormAuth} from "./features/Auth";
 
 function App() {
   return (
